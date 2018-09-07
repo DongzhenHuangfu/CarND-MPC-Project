@@ -6,8 +6,8 @@
 using CppAD::AD;
 
 // TODO: Set the timestep length and duration
-size_t N = 10;
-double v_ref = 100;
+size_t N = 20;
+double v_ref = 120;
 
 // This value assumes the model presented in the classroom is used.
 //

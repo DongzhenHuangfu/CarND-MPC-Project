@@ -114,7 +114,7 @@ int main() {
 
           auto coeffs = polyfit(x_path, y_path, 3);
 
-          double delay = 0;
+          double delay = 0.1;
           double x_next = v * delay;
           double y_next = 0;
           double psi_next = -(v * steer_value * delay / Lf);
