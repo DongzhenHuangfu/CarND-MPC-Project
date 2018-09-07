@@ -2,7 +2,6 @@
 
 ## The Vehicle Model
 
-```
 x<sub>i+1</sub> = (x<sub>i</sub> + v<sub>i</sub> * cos(psi<sub>i</sub> * dt))
 
 y<sub>i+1</sub> = (y<sub>i</sub> + v<sub>i</sub> * sin(psi<sub>i</sub> * dt))
@@ -14,8 +13,6 @@ v<sub>i+1</sub> = v<sub>i</sub> + a<sub>i</sub> * dt
 cte<sub>i+1</sub> = f(x<sub>i</sub>) - y<sub>i</sub> + v<sub>i</sub> * sin(epsi<sub>i</sub>) * dt
 
 epsi<sub>i+1</sub> = psi<sub>i</sub> - psides<sub>i</sub> - v<sub>i</sub> * delta<sub>i</sub> / Lf * dt
-
-```
 
 Where:
 
