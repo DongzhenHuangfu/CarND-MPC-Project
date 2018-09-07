@@ -120,7 +120,7 @@ int main() {
           double psi_next = -(v * steer_value * delay / Lf);
           double v_next = v + throttle_value * delay;
           double cte_next = polyeval(coeffs, 0) + v * sin(-atan(coeffs[1])) * delay;
-          double epsi_next = -atan(coeffs[1]) - v * atan(coeffs[1]) *delay /Lf;
+          double epsi_next = -atan(coeffs[1]) - v * steer_value *delay /Lf;
 
           Eigen::VectorXd state(6);
           state<<x_next, y_next, psi_next, v_next, cte_next, epsi_next;
