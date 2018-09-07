@@ -79,3 +79,8 @@ And the input state of our mpc solver should be:
 
 `x_next, y_next, psi_next, v_next, cte_nect, epsi_next`
 
+## Selection of `N` and `dt`
+
+The `N` represents the number of the calculations, `dt` represents the time step of each calculation. The time `T` is calculated by `T = N * dt`, which represents the whole prediction area.
+
+I tried also `N = 10` and `dt = 0.1`.
